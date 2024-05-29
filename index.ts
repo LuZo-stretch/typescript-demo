@@ -25,3 +25,21 @@ enumType = TShirtSize.Small
 
 let altEnumType: TShirtSizeAlternative;
 altEnumType = 'Small';
+
+// EXERCISES ON OUR OWN:
+
+const NumberOfCats: number = 2;
+const NameOfCat1: string = "Coco";
+
+const NamesOfCats: string[] = ['Florence', 'Coco']
+
+type NameAndAge = {name: string} & {age: number};
+const Cat1: NameAndAge = {
+    name: 'Coco',
+    age: 8,
+};
+
+const Cat2: {name: string; age: number} = {
+    name: 'Florence',
+    age: 8,
+};
